@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ToolsQA Testing">
+
+	<test name="Login Test" enabled="true">
+		<classes>
+			<class name="Test.ToolQA_Login_Test">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Text Box" enabled="true">
+
+		<classes>
+			<class name="Test.ToolQA_text_box_Test">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Text Box" enabled="false">
+
+		<classes>
+			<class name="Test.ToolQA_text_box_Test1">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Check Box" enabled="true">
+
+		<classes>
+			<class name="Test.ToolQA_Check_Box_Test">
+			</class>
+		</classes>
+	</test>
+</suite>

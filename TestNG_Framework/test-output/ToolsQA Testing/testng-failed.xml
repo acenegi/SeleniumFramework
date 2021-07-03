@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ToolsQA Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Text Box(failed)">
+    <classes>
+      <class name="Test.ToolQA_text_box_Test">
+        <methods>
+          <include name="Text_Box_Test"/>
+        </methods>
+      </class> <!-- Test.ToolQA_text_box_Test -->
+    </classes>
+  </test> <!-- Text Box(failed) -->
+</suite> <!-- Failed suite [ToolsQA Testing] -->
